@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-crud-server",
+  "version": "0.0.1",
+  "description": "NodeJS CRUD Server with MongoDB",
+  "main": "src/index.js",
+  "private": "true",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "CRUD",
+    "Mongoose"
+  ],
+  "author": {
+    "name": "Anik Mohammad",
+    "email": "anik7303@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.18"
+  }
+}

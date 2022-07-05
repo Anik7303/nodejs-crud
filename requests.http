@@ -1,0 +1,28 @@
+### list all users
+GET http://192.168.0.100:5000/users
+
+### find user with id
+GET http://192.168.0.100:5000/users/62c375b753e1a43ecc34b6b8
+
+### create new user
+POST http://192.168.0.100:5000/users
+content-type: application/json
+
+{
+  "username": "max1",
+  "email": "max1@example.com",
+  "password": "test"
+}
+
+### update user information
+PATCH http://192.168.0.100:5000/users/62c375b753e1a43ecc34b6b8
+content-type: application/json
+
+{
+  # "username": "anik"
+  # "email": "anik@example.com",
+  "password": "test"
+}
+
+### delete user with id
+DELETE http://192.168.0.100:5000/users/62c37cdba29ec972b0d72971

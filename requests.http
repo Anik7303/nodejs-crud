@@ -9,8 +9,8 @@ POST http://192.168.0.100:5000/users
 content-type: application/json
 
 {
-  "username": "max1",
-  "email": "max1@example.com",
+  "username": "max",
+  "email": "max@example.com",
   "password": "test"
 }
 

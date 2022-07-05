@@ -1,11 +1,13 @@
 # NodeJS CRUD Server with MongoDB
 
 ## Instructions
-- rename `.env.sample` to `.env`
+
+- rename [.env.sample](.env.sample) to `.env`
 - run `npm install` to install dependencies
 - run `npm run start:dev` to start development server
 
 ## Folder Structure
+
 ```
 .
 ├── LICENSE
@@ -36,6 +38,7 @@
 ```
 
 ## Routes
+
 > see [requests.http](requests.http) for more details
 
 | Method | Route      | Description                                 |
@@ -46,4 +49,6 @@
 | PATCH  | /users/:id | update user information for provided fields |
 | DELETE | /users/:id | delete user with `id`                       |
 
-[MIT LICENSE](LICENSE)
+## License
+
+[LICENSE](LICENSE)
